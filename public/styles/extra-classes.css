@@ -1,0 +1,26 @@
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    margin-top: var(--margin-xxxl);
+}
+
+.title {
+    font-family: var(--secondary-ff);
+    font-size: var(--fs-l);
+    color: var(--secondary-text-color);
+    text-transform: uppercase;
+}
+
+.paragraph {
+    color: var(--primary-text-color);
+}

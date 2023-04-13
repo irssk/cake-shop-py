@@ -1,11 +1,11 @@
 @font-face {
     font-family: "inter";
-    src: url("../public/fonts/Inter/Inter.ttf");
+    src: url("/public/fonts/Inter/Inter.ttf");
 }
 
 @font-face {
     font-family: "nanum";
-    src: url("../public/fonts/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf");
+    src: url("/public/fonts/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf");
 }
 
 :root {
