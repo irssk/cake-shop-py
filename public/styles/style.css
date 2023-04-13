@@ -94,3 +94,16 @@ li {
     margin-top: var(--margin-l);
     font-size: var(--fs-s);
 }
+
+.benefits__title {
+    font-family: var(--secondary-ff);
+    font-size: var(--fs-xs);
+    color: var(--secondary-text-color);
+    text-transform: uppercase;
+    text-align: start;
+}
+
+.benefits__poster {
+    width: 3rem;
+    margin-top: 5px;
+}
