@@ -130,3 +130,261 @@ li {
     text-align: center;
 }
 
+.comment {
+    padding: calc(var(--margin-m) + 8px);
+    width:  calc(474px - (var(--margin-m) + 8px));
+    background: var(--secondary-bg);
+}
+
+.comment:first-of-type {
+    position: relative;
+    top: 45px;
+    margin-right: var(--margin-m);
+    z-index: 2;
+} 
+
+.comment.snow {
+    background: var(--primary-bg);
+    border: 1px solid black;
+    position: relative;
+    top: 10px;
+    z-index: 1;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+}
+
+.person__image {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.person__name {
+    color: var(--primary-text-color);
+    font-family: var(--secondary-ff);
+}
+
+.person__paragraph {
+    margin-top: var(--margin-m);
+}
+
+.comment__paragraph {
+    width: 44px;
+    height: 22px;
+}
+
+.comment__image {
+    width: 1rem;
+    color: #777777;
+}
+
+.bestseller__box {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--secondary-text-color);
+}
+
+.bestseller__title {
+    font-size: var(--fs-m);
+    margin-top: var(--margin-s);
+    display: flex;
+    justify-content: space-between;
+}
+
+.box__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1rem;
+}
+
+.box {
+    width: 12px;
+    height: 12px;
+    background: #777777;
+    border-radius: 3px;
+}
+
+.form {
+    background: url("/public/images/backgrounds/background-1.png");
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 1512px;
+    height: 800px;
+    left: 0px;
+    top: 5023px;
+    padding: var(--padding-xxl);
+}
+
+.info {
+    width: 100%;
+    padding-left: 56px;
+    padding-right: 56px;
+}
+
+.info div:first-child {
+    align-items: start;
+}
+
+.info a {
+    display: flex;
+    flex-direction: column;
+}
+
+.info__information a, .info__address div, .info__get-in-touch div {
+    font-size: 18px;
+    color: #777777;
+    margin-bottom: 30px;
+}
+
+.info__information a:first-child, .info__address div:first-child, .info__get-in-touch div:first-child {
+    font-size: 20px;
+    font-family: var(--primary-ff);
+    margin-bottom: 42px;
+    color: #2E2927;
+}
+
+.info__get-in-touch div:last-child {
+    border-bottom: solid 1px #DFDFDF;
+    padding-bottom: 14px;
+}
+
+.info__get-in-touch input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.info__get-in-touch button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.info__get-in-touch button img {
+    width: 20px;
+}
+
+.info__socials a {
+    margin-right: 20px;
+}
+
+.info__socials img {
+    width: 40px;
+}
+
+.info__socials a:last-child {
+    border: solid 1px #DFDFDF;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.info__socials a:last-child img {
+    width: 20px;
+}
+
+.info__logo {
+    margin-bottom: 24px;
+}
+
+.info__nav {
+    margin-top: 90px;
+    display: flex;
+}
+
+.info__nav a {
+    font-size: 18px;
+    color: #2E2927;
+    margin-right: 18px;
+}
+
+.info__copyright {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #777777;
+}
+
+.order {
+    width: 1512px;
+    height: 800px;
+    background-image: url('../public/images/backgrounds/background-1.png');
+    padding-top: 99px;
+    padding-left: 56px;
+    margin-left: -45px;
+}
+
+.order h3 {
+    font-size: 42px;
+    font-family: var(--secondary-ff);
+    text-transform: uppercase;
+    color: #2E2927;
+}
+
+.order form {
+    margin-top: 60px;
+}
+
+.order form div {
+    margin-bottom: 28px;
+    border-bottom: solid 1px #DFDFDF;
+    width: 560px;
+}
+
+.order label {
+    display: flex;
+    width: 191px;
+}
+
+.order input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-bottom: 16px;
+    font-size: 18px;
+    color: #777777;
+    width: 100%;
+}
+
+#attach-photo {
+    display: none;
+}
+
+.attach-photo {
+    display: flex;
+    width: 191px!important;
+    padding: 14px 12px;
+    background-color: #777777;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: var(--primary-ff);
+    cursor: pointer;
+}
+
+.attach-photo img {
+    width: 14px;
+    margin-right: 15px;
+}
+
+.send-an-application {
+    margin-top: 38px;
+    display: flex;
+    width: 302px;
+    height: 58px;
+    border: solid 1px #2E2927;
+    color: #2E2927;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.order-info {
+    margin-top: 23px;
+    font-size: 16px;
+    color: #777777;
+}

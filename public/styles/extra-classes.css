@@ -58,3 +58,7 @@
 .fs-1 {
     font-size: var(--fs-xs);
 }
+
+.mt-30 {
+    margin-top: var(--margin-m);
+}
