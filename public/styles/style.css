@@ -235,12 +235,6 @@ li {
     flex-direction: column;
 }
 
-.info__information a, .info__address div, .info__get-in-touch div {
-    font-size: 18px;
-    color: #777777;
-    margin-bottom: 30px;
-}
-
 .info__information a:first-child, .info__address div:first-child, .info__get-in-touch div:first-child {
     font-size: 20px;
     font-family: var(--primary-ff);
